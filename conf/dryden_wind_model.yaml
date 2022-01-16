@@ -1,0 +1,9 @@
+max_force:  1.5
+max_gust:   1.8
+topic_name: "/hummingbird/ft"
+motors: 4
+
+#max_force:  1.0
+#max_gust:   0.1
+#topic_name: "/firefly/ft"
+#motors: 6

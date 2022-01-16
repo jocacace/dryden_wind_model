@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+
+<launch>
+	<rosparam command="load" file="$(find dryden_wind_model)/conf/dryden_wind_model.yaml" />
+	<node pkg="dryden_wind_model" name="dryden_wind_model" type="dryden_wind_model" output="screen">
+	</node>
+
+</launch>
